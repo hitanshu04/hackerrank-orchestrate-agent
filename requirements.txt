@@ -1,0 +1,22 @@
+# Core
+pydantic
+asyncio
+pandas
+numpy
+
+# Machine Learning & Embeddings
+sentence-transformers
+chromadb
+rank_bm25
+langdetect
+ftfy
+
+# LLM Providers (SDKs)
+anthropic
+google-genai
+openai
+
+# Testing
+pytest
+pytest-asyncio
+
