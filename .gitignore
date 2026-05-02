@@ -1,33 +1,37 @@
-# secrets
-.env
-.env.local
-*.pem
-*.key
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# deps
-node_modules/
-.pnpm-store/
+# Virtual environments
+venv/
 .venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Local database
+chroma_db/
+*.sqlite3
+
+# Logs
+execution.log
+
+# Environment variables
+.env
+
+# Project specific
+temp_code/
+SUBMISSION_READY/
+graphify-out/
+scratch/
+.planning/
+.ruff_cache/
+.pytest_cache/
+
+data/
+chroma_db/
 venv/
 __pycache__/
-*.pyc
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# build
-dist/
-build/
-*.tsbuildinfo
-
-# editor / os
-.DS_Store
-.idea/
-.vscode/
-Thumbs.db
-
-# local data / caches the participant may create
-data/index/
-data/embeddings/
-*.sqlite
-*.db
